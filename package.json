@@ -1,0 +1,32 @@
+{
+  "name": "NodeJS_Deployment",
+  "version": "1.0.0",
+  "description": "My Node JS Deployment and Folder Structure with Express and Grunt",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-config": "^0.19.2",
+    "node-yaml": "^3.1.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "jshint-stylish": "^2.2.1",
+    "node-sass": "^4.7.2",
+    "python": "0.0.4",
+    "time-grunt": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Camuto",
+  "license": "ISC"
+}
