@@ -1,0 +1,11 @@
+$body-BG: #e2f442;
+
+body{
+    margin:0;
+    padding:0;
+    background-color: $body-BG;
+}
+.confinedRow{
+    max-width:1140px;
+    margin: 0 auto;
+}
