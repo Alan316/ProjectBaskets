@@ -1,8 +1,19 @@
 block navbar-header
     div.container-fluid
         div.row.confinedRow
-            div.col-md
-                img(src="images/header_image_cb1.png")
-            div.col-md
+            div.col-md.col-sm.header-Image
+                img.header-Image(src="images/header_image_cb1.png")
+            div.col-md.col-sm
                 div.row
-                div.row
+                    div.navbar.navbar-light.navbar-expand-sm
+                        button.navbar-toggler.navbar-toggler-right(type=button, data-toggle="collapse", data-target="#navbar-nologin-content", aria-controls="navbarContent", aria-expanded="true" aria-label="Toggle navigation")
+                            span.navbar-toggler-icon.navbar-light
+                        div.collapse.navbar-collapse#navbar-nologin-content
+                            ul.navbar-nav.ml-auto
+                                li.nav-item
+                                     a(href='#') Blog
+                                li.nav-item
+                                     a(href='#') My Family    
+                                li.nav-item
+                                     a(href='#') Recipes
+                div.row Logo

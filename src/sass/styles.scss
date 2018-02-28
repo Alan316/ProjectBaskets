@@ -1,11 +1,60 @@
-$body-BG: #e2f442;
+$body-BG: #e3f975;
+$link-color: #01a9a4;
+$link-color-hover: #75f97e;
 
 body{
     margin:0;
     padding:0;
     background-color: $body-BG;
 }
+.container-fluid{
+    margin: 0;
+    padding:0;
+}
 .confinedRow{
-    max-width:1140px;
+    max-width:1040px;
+    margin: 0;
+    padding:0;
+}
+.col-md{
+    margin: 0;
+    padding:0;
+}
+.col-sm{
+    margin: 0;
+    padding:0;
+}
+.row{
     margin: 0 auto;
+    padding:0;
+    width:100%;
+}
+.navbar {
+    margin:0;
+    padding:8px;
+    float:right;
+}
+.float-Right {
+    float:right;
+}
+.nav-item{
+    padding-right:15px;
+    padding-left:15px;
+    font-weight: bold;
+}
+.nav-item > a {
+    color: $link-color;
+}
+.nav-item > a:active{
+    color: $link-color; 
+}
+.nav-item > a:hover{
+    color: $link-color-hover; 
+    text-decoration: none;
+}
+
+@media (max-width: 400px){
+    .header-Image {
+        max-width:100%;
+    }
 }
