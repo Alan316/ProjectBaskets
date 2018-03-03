@@ -1,6 +1,10 @@
-$body-BG: #e3f975;
-$link-color: #01a9a4;
-$link-color-hover: #75f97e;
+$body-BG: #fffda0;
+$link-color: #01c4be;
+$link-color-hover: #125553;
+
+$font-menu: 'Crimson', Times, Serif;
+$font-bold: 600;
+
 
 body{
     margin:0;
@@ -30,7 +34,7 @@ body{
     width:100%;
 }
 .navbar {
-    margin:0;
+    margin:0 auto;
     padding:8px;
     float:right;
 }
@@ -38,20 +42,26 @@ body{
     float:right;
 }
 .nav-item{
-    padding-right:15px;
-    padding-left:15px;
-    font-weight: bold;
+    padding-right:22px;
+    padding-left:22px;
+    border: solid 1px $link-color;
+    margin:5px;
+}
+.nav-item:hover{
+    background-color: $link-color-hover;
 }
 .nav-item > a {
     color: $link-color;
+    font-weight: $font-bold;
+    font-family: $font-menu;
+    font-size: 1.2em;
 }
 .nav-item > a:active{
-    color: $link-color; 
 }
 .nav-item > a:hover{
-    color: $link-color-hover; 
     text-decoration: none;
 }
+
 
 @media (max-width: 400px){
     .header-Image {
